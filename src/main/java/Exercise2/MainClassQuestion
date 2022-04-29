@@ -1,0 +1,9 @@
+Pueden existir varias clases que contengan un método main en un programa java.
+Incluso es posible que una clase contenga más de un método main siempre y cuando reciban distintos parámetros,
+aunque solo aquel que recibe como parámetro String[] se considera un posible punto de inicio y cualquier otro método
+main deberá estar contenido en este y será considerado una sobrecarga del método.
+A la hora de la ejecución de un programa que contiene varias clases con métodos public static void main (String args[])
+se ejecutara el método main contenido en la clase cuyo nombre coincida con el archivo .java ejecutado. De no existir
+dicha coincidencia no podrá ejecutarse el programa. Si se requiere ejecutar un método main perteneciente a otra clase
+este deberá llamarse desde el método main de la clase cuyo nombre coincide con el archivo que se está ejecutando.
+Dicha llamada deberá hacerse con el nombre de la clase que contenga el método deseado.
